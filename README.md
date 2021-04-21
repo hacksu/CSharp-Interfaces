@@ -2,7 +2,7 @@
 An introduction to graphic user interfaces (GUIs) in the C# programming language. 
 
 # Requirements
-Windows Operating System. The operating system could be hosted on a non-windows computer (for example a Mac running a windows virtual machine could follow along with this tutorial, but a Mac running OSX cannot). Windows 10 is highly recommended, this may be doable with an earlier version of Windows but I cannot gurantee that it will work properly.
+Windows Operating System. The operating system could be hosted on a non-windows computer (for example a Mac running a windows virtual machine could follow along with this tutorial, but a Mac running OSX cannot). Windows 10 is highly recommended, you may be able to do this lesson with an earlier version of Windows but I cannot gurantee that it will work properly.
 Microsoft Account (This is free you would just have to make an account with Microsoft so they can license your copy of Visual Studio)
 
 # Install Visual Studio Community 2019
