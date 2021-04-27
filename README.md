@@ -57,10 +57,6 @@ Basically, we need event handlers for the listboxes, the buttons, the radio boxe
 
         <TextBox Name="grocerySelLocationBox" FontSize="15" KeyDown="grocerySelLocationBox_KeyDown" HorizontalAlignment="Left" Height="29" Margin="183,707,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="320"/>
 
-        <RadioButton Name="addSelBtn" IsChecked="True" Content="Add to Grocery List" HorizontalAlignment="Left" Margin="386,90,0,0" VerticalAlignment="Top"/>
-
-        <RadioButton Name="removeSelBtn" Content="Remove Grocery Item" HorizontalAlignment="Left" Margin="386,110,0,0" VerticalAlignment="Top"/>
-
         <Button Name="saveList" Click="saveList_Click" Content="Save List" HorizontalAlignment="Left" Margin="886,34,0,0" VerticalAlignment="Top" Width="75"/>
         
         <Button Name="clearSelList" Click="clearSelList_Click" Content="Clear List" HorizontalAlignment="Left" Margin="285,34,0,0" VerticalAlignment="Top" Width="75"/>
