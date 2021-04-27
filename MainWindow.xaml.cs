@@ -24,10 +24,13 @@ namespace hacksu_grocery_list_lesson
         public MainWindow()
         {
             InitializeComponent();
-            string[] existingGrocerySelectionList = File.ReadAllLines(groceryselFilePath);
-            for (int i = 0; i < existingGrocerySelectionList.Length; i++)
+            if (File.Exists(groceryselFilePath))
             {
-                grocerySelList.Items.Add(existingGrocerySelectionList[i]);
+                string[] existingGrocerySelectionList = File.ReadAllLines(groceryselFilePath);
+                for (int i = 0; i < existingGrocerySelectionList.Length; i++)
+                {
+                    grocerySelList.Items.Add(existingGrocerySelectionList[i]);
+                }
             }
         }
 
